@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Car</title>
 </head>
 <body>
@@ -12,11 +13,12 @@
     <!-- header -->
 
     <header>
-        <a href="" class="logo">
+        <a href="#home" class="logo">
             <img src="img/jeep.png" alt="jeep">
         </a>
 
         <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-xmark"></i>
 
         </div>
 
@@ -25,7 +27,7 @@
             <li><a href="#ride">Ride</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#about">Reviews</a></li>
         </ul>
         <div class="header-btn">
             <a href="#" class="signup">Sign Up</a>
@@ -66,6 +68,94 @@
             </form>
         </div>
     </section>
+
+    <!-- slider -->
+
+    <section class="vehicles" id="vehicles">
+
+        <h1 class="heading2"> Our best <span>Cars</span></h1>
+
+  <div class="swiper vehicles-slider"> 
+      <div class="swiper-wrapper">
+        <div class="box swiper-slide">
+            <img src="img/bmw.png" alt="ferrari">
+            <div class="content">
+                <h3>Tesla New Model</h3>
+                <div class="price"> <span>price:</span> $65.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+        <div class="box swiper-slide">
+            <img src="img/merc.png" alt="tesla">
+            <div class="content">
+                <h3>Ferrari New Model</h3>
+                <div class="price"> <span>price:</span> $65.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+        <div class="box swiper-slide">
+            <img src="img/fordmustang.png" alt="ferrari">
+            <div class="content">
+                <h3>Ferrari New Model</h3>
+                <div class="price"> <span>price:</span> $65.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+        <div class="box swiper-slide">
+            <img src="img/lamborgini.png" alt="ferrari">
+            <div class="content">
+                <h3>Ferrari New Model</h3>
+                <div class="price"> <span>price:</span> $65.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p>
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+        <div class="box swiper-slide">
+            <img src="img/rangrover.png"  alt="ferrari">
+            <div class="content">
+                <h3>Ferrari New Model</h3>
+                <div class="price"> <span>price:</span> $65.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 183mph
+                </p> 
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+      </div>
+     <div class="swiper-pagination"></div>
+   </div> 
+</section>
 
     <!-- ride -->
     <section class="ride" id="ride">
@@ -210,8 +300,8 @@
             <h1>Reviews</h1>
             <span>What Our Clients Says</span>
         </div>
-        <div class="reviwes-contaner">
-            <div class="box">
+        <div class="reviwes-container">
+            <div class="box swiper-slide">
                 <div class="rev-img">
                     <img src="img/rev1.jpg" alt="img">
                 </div>
@@ -226,7 +316,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cum consequatur, consequuntur exercitationem totam aperiam ipsum maxime! Qui laudantium quos ea facilis earum in saepe, nesciunt nemo! Iusto.</p>
             </div>
 
-            <div class="box">
+            <div class="box swiper-slide">
                 <div class="rev-img">
                     <img src="img/rev1.jpg" alt="img">
                 </div>
@@ -241,7 +331,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, odit nostrum accusantium eum voluptatum possimus officiis. Quasi ipsum explicabo iste nobis est dicta incidunt laudantium reiciendis distinctio, vitae dolorem. Perferendis.</p>
             </div>
 
-            <div class="box">
+            <div class="box swiper-slide">
                 <div class="rev-img">
                     <img src="img/rev1.jpg" alt="img">
                 </div>
@@ -278,7 +368,8 @@
         </div>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="script.js"></script>
 </body>
 </html>
