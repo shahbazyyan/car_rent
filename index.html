@@ -3,6 +3,7 @@
 <head>
     <script src="https://kit.fontawesome.com/04807ac57b.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <link rel="icon" type="image.png" href="img/car.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -27,7 +28,7 @@
             <li><a href="#ride">Ride</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#about">Reviews</a></li>
+            <li><a href="#reviwes">Reviews</a></li>
         </ul>
         <div class="header-btn">
             <a href="#" class="signup">Sign Up</a>
@@ -54,17 +55,17 @@
             <form action="">
                 <div class="input-box">
                     <span>Location</span>
-                    <input type="text" name="location" id="" placeholder="Search Places">
+                    <input type="text" name="location" id="location" placeholder="Search Places">
                 </div>
                 <div class="input-box">
                     <span>Pick-Up Date</span>
-                    <input type="date" name="" id="">
+                    <input type="date" name="" id="date">
                 </div>
                 <div class="input-box">
                     <span>Return Date</span>
-                    <input type="date" name="" id="">
+                    <input type="date" name="" id="returnDate">
                 </div>
-                <input type="submit" value="Submit" name="" id="" class="btn">
+                <input type="submit" value="Submit" name="" id="submitRent" class="btn">
             </form>
         </div>
     </section>
@@ -73,15 +74,15 @@
 
     <section class="vehicles" id="vehicles">
 
-        <h1 class="heading2"> Our best <span>Cars</span></h1>
+        <h1 class="heading"> Cars You Can Buy</h1>
 
   <div class="swiper vehicles-slider"> 
       <div class="swiper-wrapper">
         <div class="box swiper-slide">
-            <img src="img/bmw.png" alt="ferrari">
+            <img src="img/bmw.png" alt="bmw">
             <div class="content">
-                <h3>Tesla New Model</h3>
-                <div class="price"> <span>price:</span> $65.000/-</div>
+                <h3>BMW i7 xDrive60 </h3>
+                <div class="price"> <span>price:</span> $87.000/-</div>
                 <p>
                     New
                     <span class="fas fa-circle"></span> 2021 
@@ -93,13 +94,28 @@
           </div>
         </div>
         <div class="box swiper-slide">
-            <img src="img/merc.png" alt="tesla">
+            <img src="img/merc.png" alt="merc">
             <div class="content">
-                <h3>Ferrari New Model</h3>
-                <div class="price"> <span>price:</span> $65.000/-</div>
+                <h3>Mercedes-Benz G-class</h3>
+                <div class="price"> <span>price:</span> $163.000/-</div>
                 <p>
                     New
-                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> 2023 
+                    <span class="fas fa-circle"></span> automatic
+                    <span class="fas fa-circle"></span> petrol
+                    <span class="fas fa-circle"></span> 193mph
+                </p>
+                <button class="btn">Check Out</button>
+          </div>
+        </div>
+        <div class="box swiper-slide">
+            <img src="img/fordmustang.png" alt="mustang">
+            <div class="content">
+                <h3>Ford Mustang</h3>
+                <div class="price"> <span>price:</span> $93.000/-</div>
+                <p>
+                    New
+                    <span class="fas fa-circle"></span> 2024 
                     <span class="fas fa-circle"></span> automatic
                     <span class="fas fa-circle"></span> petrol
                     <span class="fas fa-circle"></span> 183mph
@@ -108,16 +124,16 @@
           </div>
         </div>
         <div class="box swiper-slide">
-            <img src="img/fordmustang.png" alt="ferrari">
+            <img src="img/minicooper.png" alt="minicooper">
             <div class="content">
-                <h3>Ferrari New Model</h3>
-                <div class="price"> <span>price:</span> $65.000/-</div>
+                <h3>MINI Hardtop 2 Door</h3>
+                <div class="price"> <span>price:</span> $13.500/-</div>
                 <p>
                     New
-                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> 2019
                     <span class="fas fa-circle"></span> automatic
                     <span class="fas fa-circle"></span> petrol
-                    <span class="fas fa-circle"></span> 183mph
+                    <span class="fas fa-circle"></span> 103mph
                 </p>
                 <button class="btn">Check Out</button>
           </div>
@@ -125,29 +141,29 @@
         <div class="box swiper-slide">
             <img src="img/lamborgini.png" alt="ferrari">
             <div class="content">
-                <h3>Ferrari New Model</h3>
-                <div class="price"> <span>price:</span> $65.000/-</div>
+                <h3>Lamborghini Urus </h3>
+                <div class="price"> <span>price:</span> $265.000/-</div>
                 <p>
                     New
-                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> 2024 
                     <span class="fas fa-circle"></span> automatic
                     <span class="fas fa-circle"></span> petrol
-                    <span class="fas fa-circle"></span> 183mph
+                    <span class="fas fa-circle"></span> 293mph
                 </p>
                 <button class="btn">Check Out</button>
           </div>
         </div>
         <div class="box swiper-slide">
-            <img src="img/rangrover.png"  alt="ferrari">
+            <img src="img/rangrover.png"  alt="rangerover">
             <div class="content">
-                <h3>Ferrari New Model</h3>
-                <div class="price"> <span>price:</span> $65.000/-</div>
+                <h3>Range Rover Sport</h3>
+                <div class="price"> <span>price:</span> $155.000/-</div>
                 <p>
                     New
-                    <span class="fas fa-circle"></span> 2021 
+                    <span class="fas fa-circle"></span> 2022
                     <span class="fas fa-circle"></span> automatic
                     <span class="fas fa-circle"></span> petrol
-                    <span class="fas fa-circle"></span> 183mph
+                    <span class="fas fa-circle"></span> 201mph
                 </p> 
                 <button class="btn">Check Out</button>
           </div>
@@ -191,85 +207,7 @@
             <span>Explore Out Top Deals <br> From Top Rated Dealerls</span>
         </div>
         <div class="services-container">
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car1.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car2.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car3.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car4.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car5.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car6.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car7.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
-
-            <div class="box">
-                <div class="box-img">
-                    <img src="img/car8.jpg" alt="car">
-                </div>
-                <p>2019</p>
-                <h3>Kia Optima</h3>
-                <h2>$25650 | $208 <span>month/day</span></h2>
-                <a href="#" class="btn">Rent Now</a>
-            </div>
+        
         </div>
     </section>
 
